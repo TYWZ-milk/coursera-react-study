@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23415ca-bee6-4eca-a057-ea52e8749f22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git-test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/git-test/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +28,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -71,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606149420226</updated>
-      <workItem from="1606149421563" duration="1090000" />
+      <workItem from="1606149421563" duration="2397000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;second commit&quot;">
       <created>1606149673866</created>
@@ -80,7 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606149673867</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;node&quot;">
+      <created>1606151176733</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606151176733</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;node&quot;">
+      <created>1606151193517</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606151193517</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;second commit&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;second commit&quot;" />
+    <MESSAGE value="&quot;node&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;node&quot;" />
   </component>
 </project>

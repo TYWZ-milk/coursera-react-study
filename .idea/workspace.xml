@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23415ca-bee6-4eca-a057-ea52e8749f22" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/assets/images/alberto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/assets/images/buffet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/assets/images/elaicheesecake.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/assets/images/uthappizza.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/assets/images/vadonut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/assets/images/zucchipakoda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/MenuComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -27,7 +37,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/my-app/public/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -38,6 +48,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my-app/public/assets" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -76,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606149420226</updated>
-      <workItem from="1606149421563" duration="2397000" />
+      <workItem from="1606149421563" duration="3712000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;second commit&quot;">
       <created>1606149673866</created>
@@ -99,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606151193517</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;Configuring React&quot;">
+      <created>1606155879138</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606155879138</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +137,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;second commit&quot;" />
     <MESSAGE value="&quot;node&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;node&quot;" />
+    <MESSAGE value="&quot;Configuring React&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Configuring React&quot;" />
   </component>
 </project>

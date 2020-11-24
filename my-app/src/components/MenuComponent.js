@@ -22,7 +22,6 @@ const Menu = (props) =>{
             </div>
         )
     });
-    console.log("Menu component render is invoked");
     return (
         <div className="container">
             <div className="row" >

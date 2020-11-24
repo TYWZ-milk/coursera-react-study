@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23415ca-bee6-4eca-a057-ea52e8749f22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/FooterComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/HeaderComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/HomeComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/ContactComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/shared/comments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/shared/leaders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/shared/promotions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/DishdetailComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/DishdetailComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/HomeComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/HomeComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/MainComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/MainComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/MenuComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/MenuComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/shared/dishes.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/shared/dishes.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +90,8 @@
       <workItem from="1606149421563" duration="7504000" />
       <workItem from="1606172621581" duration="3442000" />
       <workItem from="1606227965925" duration="344000" />
-      <workItem from="1606232320329" duration="3798000" />
+      <workItem from="1606232320329" duration="3952000" />
+      <workItem from="1606255035903" duration="2995000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;second commit&quot;">
       <created>1606149673866</created>
@@ -142,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606190383718</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="React Router">
+      <created>1606238731287</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606238731287</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +175,7 @@
     <MESSAGE value="Components Part 1" />
     <MESSAGE value="Components Part 2" />
     <MESSAGE value="Functional Components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Functional Components" />
+    <MESSAGE value="React Router" />
+    <option name="LAST_COMMIT_MESSAGE" value="React Router" />
   </component>
 </project>

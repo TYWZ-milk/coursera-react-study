@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23415ca-bee6-4eca-a057-ea52e8749f22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/AboutComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/MainComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/MainComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/MenuComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/MenuComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/ContactComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/ContactComponent.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +83,9 @@
       <workItem from="1606172621581" duration="3442000" />
       <workItem from="1606227965925" duration="344000" />
       <workItem from="1606232320329" duration="3952000" />
-      <workItem from="1606255035903" duration="4152000" />
+      <workItem from="1606255035903" duration="4166000" />
+      <workItem from="1606341324411" duration="322000" />
+      <workItem from="1606410756228" duration="1715000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;second commit&quot;">
       <created>1606149673866</created>
@@ -150,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606259788868</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="assignment 2">
+      <created>1606261099743</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606261099743</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +185,7 @@
     <MESSAGE value="Functional Components" />
     <MESSAGE value="React Router" />
     <MESSAGE value="Single Page Applications Part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Single Page Applications Part 2" />
+    <MESSAGE value="assignment 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="assignment 2" />
   </component>
 </project>

@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23415ca-bee6-4eca-a057-ea52e8749f22" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/my-app/src/redux/configureStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/redux/reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/HeaderComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/HeaderComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/MainComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/MainComponent.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +89,7 @@
       <workItem from="1606232320329" duration="3952000" />
       <workItem from="1606255035903" duration="4166000" />
       <workItem from="1606341324411" duration="322000" />
-      <workItem from="1606410756228" duration="4568000" />
+      <workItem from="1606410756228" duration="5799000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;second commit&quot;">
       <created>1606149673866</created>
@@ -171,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606425707163</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Uncontrolled Form">
+      <created>1606426857510</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606426857510</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +213,7 @@
     <MESSAGE value="assignment 2" />
     <MESSAGE value="Controlled Forms" />
     <MESSAGE value="Controlled Form Validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Controlled Form Validation" />
+    <MESSAGE value="Uncontrolled Form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uncontrolled Form" />
   </component>
 </project>

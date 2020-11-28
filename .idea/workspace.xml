@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23415ca-bee6-4eca-a057-ea52e8749f22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/LoadingComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/redux/ActionCreaters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/redux/ActionTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/redux/comments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/redux/dishes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/redux/leaders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/redux/promotions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/redux/forms.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/DishdetailComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/DishdetailComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/HomeComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/HomeComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/ContactComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/ContactComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/MainComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/MainComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/MenuComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/MenuComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/redux/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/configureStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/redux/reducer.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +88,7 @@
       <workItem from="1606255035903" duration="4166000" />
       <workItem from="1606341324411" duration="322000" />
       <workItem from="1606410756228" duration="10016000" />
-      <workItem from="1606586799615" duration="6690000" />
+      <workItem from="1606586799615" duration="7389000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;second commit&quot;">
       <created>1606149673866</created>
@@ -214,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606587178534</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="redux thunk">
+      <created>1606602048816</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1606602048816</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +244,7 @@
     <MESSAGE value="Intro. to Redux" />
     <MESSAGE value="React Redux Form Validation" />
     <MESSAGE value="assignment 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="assignment 3" />
+    <MESSAGE value="redux thunk" />
+    <option name="LAST_COMMIT_MESSAGE" value="redux thunk" />
   </component>
 </project>

@@ -13,11 +13,12 @@ import {
 } from "reactstrap";
 import {Link} from "react-router-dom";
 import {Control, Errors, LocalForm} from "react-redux-form";
+import {Loading} from "./LoadingComponent";
 
 const maxLength = (len) => (val) => !(val) || (val.length <= len);
 const minLength = (len) => (val) => val && (val.length >= len);
 
-function RenderComments({comments}) {
+function RenderComments({comments, addComment, dishId}) {
     let commentView;
     if (comments == null) {
         commentView = <div></div>;
@@ -38,7 +39,7 @@ function RenderComments({comments}) {
         <div>
             <h4>Comment</h4>
             {commentView}
-            <CommentForm/>
+            <CommentForm dishId={dishId}  addComment={addComment}/>
         </div>
     );
 }
@@ -64,11 +65,30 @@ function RenderDish({dish}) {
 }
 
 const DishDetail = (props) => {
+    if(props.isLoading){
+        return (
+            <div className="container">
+                <div className="row">
+                    <Loading/>
+                </div>
+            </div>
+        );
+    }
+    else if(props.errMess){
+        return (
+            <div className="container">
+                <div className="row">
+                    <h4>{props.errMess}</h4>
+                </div>
+            </div>
+        );
+    }
     const dishDetail = <RenderDish dish={props.dish}/>;
     let comments;
     if (props.dish != null) {
-        comments = <RenderComments comments={props.comments}/>;
+        comments = <RenderComments comments={props.comments} addComment={props.addComment} dishId={props.dish.id}/>;
     }
+
 
     return (
         <div className="container">
@@ -114,7 +134,9 @@ class CommentForm extends Component {
 
 
     handleSubmit(values) {
+        this.toggleModel();
         alert("Current state is: " + JSON.stringify(values));
+        this.props.addComment(this.props.dishId, values.rating, values.author, values.comment);
     }
 
     render() {

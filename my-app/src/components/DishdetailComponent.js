@@ -14,6 +14,7 @@ import {
 import {Link} from "react-router-dom";
 import {Control, Errors, LocalForm} from "react-redux-form";
 import {Loading} from "./LoadingComponent";
+import {baseUrl} from "../shared/baseUrl";
 
 const maxLength = (len) => (val) => !(val) || (val.length <= len);
 const minLength = (len) => (val) => val && (val.length >= len);
@@ -39,7 +40,7 @@ function RenderComments({comments, addComment, dishId}) {
         <div>
             <h4>Comment</h4>
             {commentView}
-            <CommentForm dishId={dishId}  addComment={addComment}/>
+            <CommentForm dishId={dishId} addComment={addComment}/>
         </div>
     );
 }
@@ -49,7 +50,7 @@ function RenderDish({dish}) {
         return (
             <div className="col-12 col-md-5 m-1">
                 <Card>
-                    <CardImg width="100%" src={dish.image} alt={dish.name}/>
+                    <CardImg width="100%" src={baseUrl + dish.image} alt={dish.name}/>
                     <CardBody>
                         <CardTitle>{dish.name}</CardTitle>
                         <CardText>{dish.description}</CardText>
@@ -65,7 +66,7 @@ function RenderDish({dish}) {
 }
 
 const DishDetail = (props) => {
-    if(props.isLoading){
+    if (props.isLoading) {
         return (
             <div className="container">
                 <div className="row">
@@ -73,8 +74,7 @@ const DishDetail = (props) => {
                 </div>
             </div>
         );
-    }
-    else if(props.errMess){
+    } else if (props.errMess) {
         return (
             <div className="container">
                 <div className="row">
@@ -170,7 +170,7 @@ class CommentForm extends Component {
                                               placeholder="Your Name"
                                               className="form-control"
                                               validators={{
-                                                   minLength: minLength(3), maxLength: maxLength(15)
+                                                  minLength: minLength(3), maxLength: maxLength(15)
                                               }}
                                 />
                                 <Errors

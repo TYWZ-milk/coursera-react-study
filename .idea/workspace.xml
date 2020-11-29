@@ -4,10 +4,12 @@
     <list default="true" id="c23415ca-bee6-4eca-a057-ea52e8749f22" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/DishdetailComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/DishdetailComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/HomeComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/HomeComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/MainComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/MainComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/redux/ActionCreaters.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/ActionCreaters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/redux/comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/comments.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +91,8 @@
       <workItem from="1606255035903" duration="4166000" />
       <workItem from="1606341324411" duration="322000" />
       <workItem from="1606410756228" duration="10016000" />
-      <workItem from="1606586799615" duration="12132000" />
+      <workItem from="1606586799615" duration="12878000" />
+      <workItem from="1606661081183" duration="645000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;second commit&quot;">
       <created>1606149673866</created>
@@ -224,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606620698040</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Fetch Post Comment">
+      <created>1606622192701</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1606622192701</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +272,7 @@
     <MESSAGE value="redux thunk" />
     <MESSAGE value="React Redux Forms Revisited" />
     <MESSAGE value="fetch from server" />
-    <option name="LAST_COMMIT_MESSAGE" value="fetch from server" />
+    <MESSAGE value="Fetch Post Comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fetch Post Comment" />
   </component>
 </project>

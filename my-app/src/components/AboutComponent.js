@@ -1,28 +1,80 @@
 import React from 'react';
 import {Breadcrumb, BreadcrumbItem, Card, CardBody, CardHeader, Media} from 'reactstrap';
 import {Link} from 'react-router-dom';
+import {baseUrl} from "../shared/baseUrl";
+import {Loading} from "./LoadingComponent";
+import {Fade, Stagger} from "react-animation-components";
 
-function RenderLeader(leader) {
-    return (
-        <Media tag="li">
-            <Media left middle>
-                <Media object src={leader.item.image} alt={leader.item.name}/>
+function RenderLeader({item, isLoading, errMess}) {
+    if (isLoading) {
+        return (
+            <Loading/>
+        );
+    } else if (errMess) {
+        return (
+            <h4>{errMess}</h4>
+        );
+    } else {
+        return (
+
+
+            <Media tag="li">
+                <Media left middle>
+                    <Media object src={baseUrl + item.image} alt={item.name}/>
+                </Media>
+                <Media body className="ml-5">
+                    <Media heading>{item.name}</Media>
+                    <p>{item.designation}</p>
+                    <p>{item.description}</p>
+                </Media>
             </Media>
-            <Media body className="ml-5">
-                <Media heading>{leader.item.name}</Media>
-                <p>{leader.item.designation}</p>
-                <p>{leader.item.description}</p>
-            </Media>
-        </Media>
-    );
+        );
+    }
+}
+
+function RenderLeaders({item, isLoading, errMess}) {
+    if (isLoading) {
+        return (
+            <Loading/>
+        );
+    } else if (errMess) {
+        return (
+            <h4>{errMess}</h4>
+        );
+    } else {
+        return (
+            <Stagger in>
+                {item.map((item) => {
+                    return (
+                        <Fade in>
+                            <Media tag="li">
+                                <Media left middle>
+                                    <Media object src={baseUrl + item.image} alt={item.name}/>
+                                </Media>
+                                <Media body className="ml-5">
+                                    <Media heading>{item.name}</Media>
+                                    <p>{item.designation}</p>
+                                    <p>{item.description}</p>
+                                </Media>
+                            </Media>
+                        </Fade>
+                    );
+                })}
+            </Stagger>
+        );
+    }
 }
 
 function About(props) {
-    const leaders = props.leaders.map((leader) => {
-        return (
-            <RenderLeader item={leader}/>
-        );
-    });
+    const leaders = <RenderLeaders item={props.leaders.leaders} isLoading={props.leaders.isLoading}
+                                   errMess={props.leaders.errMess}/>
+    // const leaders = props.leaders.leaders.map((leader) => {
+    //     return (
+    //
+    //         <RenderLeader item={leader} isLoading={props.leaders.isLoading} errMess={props.leaders.errMess}/>
+    //
+    //     );
+    // });
 
     return (
         <div className="container">

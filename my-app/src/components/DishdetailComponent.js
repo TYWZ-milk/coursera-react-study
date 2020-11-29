@@ -19,7 +19,7 @@ import {baseUrl} from "../shared/baseUrl";
 const maxLength = (len) => (val) => !(val) || (val.length <= len);
 const minLength = (len) => (val) => val && (val.length >= len);
 
-function RenderComments({comments, addComment, dishId}) {
+function RenderComments({comments, postComment, dishId}) {
     let commentView;
     if (comments == null) {
         commentView = <div></div>;
@@ -40,7 +40,7 @@ function RenderComments({comments, addComment, dishId}) {
         <div>
             <h4>Comment</h4>
             {commentView}
-            <CommentForm dishId={dishId} addComment={addComment}/>
+            <CommentForm dishId={dishId} postComment={postComment}/>
         </div>
     );
 }
@@ -86,7 +86,7 @@ const DishDetail = (props) => {
     const dishDetail = <RenderDish dish={props.dish}/>;
     let comments;
     if (props.dish != null) {
-        comments = <RenderComments comments={props.comments} addComment={props.addComment} dishId={props.dish.id}/>;
+        comments = <RenderComments comments={props.comments} postComment={props.postComment} dishId={props.dish.id}/>;
     }
 
 
@@ -136,7 +136,7 @@ class CommentForm extends Component {
     handleSubmit(values) {
         this.toggleModel();
         alert("Current state is: " + JSON.stringify(values));
-        this.props.addComment(this.props.dishId, values.rating, values.author, values.comment);
+        this.props.postComment(this.props.dishId, values.rating, values.author, values.comment);
     }
 
     render() {
